@@ -1,4 +1,4 @@
-This is a jQery / Zepto.js (a high speed equivalent of jQuery) plug-in that implement JavaScript native setInterval and
+This is a jQery / Zepto.js (a high speed JS framework, equivalent of jQuery) plug-in that implement JavaScript native setInterval and
 manage start / stop of a timer by a unique function with different number of parameters:
 
 to start a timer use :
