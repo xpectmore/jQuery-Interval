@@ -48,7 +48,7 @@ $( document ).ready(function(){
 });
 
 /*
-	$.delI('yep'); //this will disable any active interval with the id 'yep'
+	$.interval('yep'); //this will disable any active interval with the id 'yep'
 */
 
 
