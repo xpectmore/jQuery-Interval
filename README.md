@@ -27,3 +27,41 @@ $( document ).ready(function(){
 
 ======================
 
+FOR WHO do not like JS frameworks ,well there is another possibility,a JS sollution:
+
+
+
+
+var _sI=[];
+
+__set=function(I,t,st){
+
+	if (_sI[I]== undefined){
+	
+		_sI[I]={};
+		
+	}else{
+	
+		clearInterval(_sI[I].reg);
+		
+	}
+	
+	_sI[I].fn=st;
+	
+	_sI[I].t=t;
+	
+	_sI[I].reg=setInterval(st,t);
+	
+}
+
+__del=function(I){
+
+	clearInterval(_sI[I].reg);
+	
+}
+
+__set('yep',3000,function(){
+
+	console.log('yeah baby');
+	
+});
