@@ -20,18 +20,5 @@ if (typeof($) == 'undefined'){	jqzp();	}else $( document ).ready(function(){
 			console.log('to stop that use: $.interval("id")');
 		}
 	}
-	$.setI= function(I,t,st){
-		if (_sI[I]== undefined){
-			_sI[I]={};
-		}else{
-			clearInterval(_sI[I].reg);
-		}
-		_sI[I].fn=st;
-		_sI[I].t=t;
-		_sI[I].reg=setInterval(st,t);
-	}
-	$.delI= function(I){
-		clearInterval(_sI[I].reg);
-	}
 });
 //stop plug-in
