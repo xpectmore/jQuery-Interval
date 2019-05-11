@@ -3,16 +3,23 @@ manage start / stop of a timer by a unique function with different number of par
 
 to start a timer use :
 ======================
+
 $( document ).ready(function(){ 
+
 	$.interval('yep',3000,function(){
+	
 		console.log('github roolez !!!')
+		
 	});
 
-//to stop it use inside a :
-//$.delI('yep');
+//to stop it use :
+
+	//$.delI('yep');
+	
 });
 
 
 
 
 ======================
+
