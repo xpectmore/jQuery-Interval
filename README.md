@@ -1,3 +1,7 @@
+LICENSE: F.T.M.  (Free To Mankind)
+
+
+
 This is a jQery / Zepto.js (a high speed JS framework, equivalent of jQuery) plug-in that implement JavaScript native setInterval and
 manage start / stop of a timer by a unique function with different number of parameters:
 
