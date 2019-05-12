@@ -26,7 +26,8 @@ $( document ).ready(function(){
 });
 ======================
 
-when you learn to use it there is minified version too jQinterval.min.js
+when you learn to use it there is minified version too.
+see: index_jQintervalmin.php,jQinterval.min.js files
 
 ======================
 
