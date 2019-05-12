@@ -24,9 +24,9 @@ $( document ).ready(function(){
 	//$.delI('yep');
 	
 });
+======================
 
-
-
+when you learn to use it there is minified version too jQinterval.min.js
 
 ======================
 
