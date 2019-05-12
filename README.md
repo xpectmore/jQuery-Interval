@@ -1,5 +1,8 @@
 LICENSE: F.T.M.  (Free To Mankind)
 
+use this only if you need a custom repeated action
+for only one trigger there is "delay" function yet inside jQuery!
+https://api.jquery.com/delay/#delay-duration-queueName
 
 
 This is a jQery / Zepto.js (a high speed JS framework, equivalent of jQuery) plug-in that implement JavaScript native setInterval and
