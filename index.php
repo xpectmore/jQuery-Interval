@@ -31,17 +31,16 @@ i am using these in xampp ,under windows server:
 <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.js"></script>
  -->
 
-
-
- <!-- 
- 
- 
- -->
 <script src="jQInterval.js"></script>
 <script>
 
 
 $( document ).ready(function(){ 
+/*
+use this only if you need a custom repeated action
+for only one trigger there is "delay" function yet inside jQuery!
+https://api.jquery.com/delay/#delay-duration-queueName
+*/	
 	$.interval('yep',3000,function(){
 		console.log('yeah baby')
 	});
